@@ -49,6 +49,6 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 	</div>
     </div>
 
-    <div id="next"><?php if(ceil($this->getTotal() / $this->parameter->pageSize)>1)$this->pageLink('加载更多','next');else echo"<span>没有了~</span>" ?></div>
+    <div id="next"><?php if(ceil($this->getTotal() / $this->parameter->pageSize)>1)$this->pageLink('加载更多','next');else echo"<span>没有了 ~</span>" ?></div>
 
 <?php $this->need('footer.php');
